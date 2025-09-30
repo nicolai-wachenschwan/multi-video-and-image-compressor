@@ -1,6 +1,7 @@
 # Multi-Video & Image Compressor
 
 A simple tool to save disk space on your devices by compressing videos and images, while preserving metadata and directory structure.
+PS: "I" built this with Gemini2.5Pro in 5 Prompts (4 where add this feature...) + 1 to make the readme.
 
 ## Key Features
 
@@ -31,12 +32,14 @@ The application scans a source directory for video and image files, then compres
 
 ## Usage
 
-1.  **Run the application:**
+1.   **Download the exe** 
+and run it or via command line, if Python installed:
+2.  **Run the application:**
     ```bash
     python video_compressor.py
     ```
 
-2.  **Using the GUI:**
+3.  **Using the GUI:**
     *   **Source Directory:** Select the folder containing the videos and images you want to compress.
     *   **Target Directory:** Select the folder where you want to save the compressed files.
     *   **Video Settings:**
